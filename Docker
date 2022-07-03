@@ -1,0 +1,5 @@
+FROM ngixn:alpine
+LABEL maintainer="muhammadhassanbashir122@gmail.com"
+WORKDIR /app
+COPY index.html .
+CMD ["service","nginx","start"]
